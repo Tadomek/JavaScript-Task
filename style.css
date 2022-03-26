@@ -1,0 +1,182 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+body{
+  background: url(https://s3-alpha-sig.figma.com/img/da33/9603/36e630daa6b7d759f4f0e3b57552bf8f?Expires=1649030400&Signature=HHdCmpHlJKpeLjHgiADwiGp88-UvNtXa~oAUJWnq9HVtnNnbJcBxGaARnmQhuIRwobqJEB3VMCbH79x3n4Xzdoo3cRXKKH02hj7zKe0LOQRgpfsKPxHHySQVs4NvDAMPspbwUtq7ZQFTf46naoV8o-o0MMuxX39b1kMia1yuqEjqI~WJE04wxEK3NmZianN9cnotR~eyLKPc3OM12tpvH8QFe7CjRBa60uH0jrr4UmkrUWqo2uPBZmKPBHaSI-s0tOOm-UM9we2hQ5rp6t3U9FTAp7DHTW-XARqQq3CRdDsyYdd6oricZcqx9cvHAIxoRynpCl04LQxPN3Spr5LGjw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+/* Navigation Bar */
+.navbar{
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-ul{
+  display: flex;
+  list-style: none;
+  margin-left: 150px;
+}
+
+.nav-ul li{
+  margin: 0 10px 0 10px;
+}
+
+a:hover{
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+  width: 50%;
+  height: 40px;
+  border-radius: 50px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;  
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  background: url(https://s3-alpha-sig.figma.com/img/da33/9603/36e630daa6b7d759f4f0e3b57552bf8f?Expires=1649030400&Signature=HHdCmpHlJKpeLjHgiADwiGp88-UvNtXa~oAUJWnq9HVtnNnbJcBxGaARnmQhuIRwobqJEB3VMCbH79x3n4Xzdoo3cRXKKH02hj7zKe0LOQRgpfsKPxHHySQVs4NvDAMPspbwUtq7ZQFTf46naoV8o-o0MMuxX39b1kMia1yuqEjqI~WJE04wxEK3NmZianN9cnotR~eyLKPc3OM12tpvH8QFe7CjRBa60uH0jrr4UmkrUWqo2uPBZmKPBHaSI-s0tOOm-UM9we2hQ5rp6t3U9FTAp7DHTW-XARqQq3CRdDsyYdd6oricZcqx9cvHAIxoRynpCl04LQxPN3Spr5LGjw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  background-clip: padding-box;
+  border: none;
+  background-position-x: 90%;
+  font-size: 14px;
+
+}
+
+.btn::after{
+  position: absolute;
+  top: -4px;
+  bottom: -4px;
+  left: -4px;
+  right: -4px;
+  background: linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%);
+  content: '';
+  z-index: -1;
+  border-radius: 50px;
+}
+
+.navbar h1{
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn3{
+  border-style: none;
+  width: 50%;
+  height: 40px;
+  margin-right: 15px;
+  border-radius: 20px;
+  font-family: 'Poppins', sans-serif;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+/* Main-Info */
+.box{
+  width: 15%;
+  display: flex;
+}
+
+section{
+  width: 70%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+section h2{
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+section #text{
+  font-size: 70px;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+section p{
+  width: 50%;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.btn2{
+  width: 293px;
+  height: 72px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;  
+  font-weight: bold;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  background: url(https://s3-alpha-sig.figma.com/img/da33/9603/36e630daa6b7d759f4f0e3b57552bf8f?Expires=1649030400&Signature=HHdCmpHlJKpeLjHgiADwiGp88-UvNtXa~oAUJWnq9HVtnNnbJcBxGaARnmQhuIRwobqJEB3VMCbH79x3n4Xzdoo3cRXKKH02hj7zKe0LOQRgpfsKPxHHySQVs4NvDAMPspbwUtq7ZQFTf46naoV8o-o0MMuxX39b1kMia1yuqEjqI~WJE04wxEK3NmZianN9cnotR~eyLKPc3OM12tpvH8QFe7CjRBa60uH0jrr4UmkrUWqo2uPBZmKPBHaSI-s0tOOm-UM9we2hQ5rp6t3U9FTAp7DHTW-XARqQq3CRdDsyYdd6oricZcqx9cvHAIxoRynpCl04LQxPN3Spr5LGjw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  background-clip: padding-box;
+  border: none;
+  background-position: 45%;
+}
+
+.btn2::after{
+  position: absolute;
+  top: -4px;
+  bottom: -4px;
+  left: -4px;
+  right: -4px;
+  background: linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%);
+  content: '';
+  z-index: -1;
+  border-radius: 50px;
+}
+
+.bot{
+  display: flex;
+  justify-content: space-around;
+}
+
+.img1{
+  width: 60px;
+  float: right;
+}
+
+.img2{
+  Width: 85px;
+  Height: 33px;
+  Top: 727px;
+  Left: 917px;
+  margin-top: 50px;
+}
+
+.btn2 h1{
+  float: left;
+}
